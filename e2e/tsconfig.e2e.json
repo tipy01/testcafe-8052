@@ -1,0 +1,14 @@
+{
+    "include": ["e2e/**/*.spec.ts", "e2e/**/*.test.ts"],
+    "exclude": ["node_modules/*"],
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "suppressOutputPathCheck": true,
+        "types": ["node"]
+    }
+}
